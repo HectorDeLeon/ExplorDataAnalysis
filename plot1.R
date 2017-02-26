@@ -19,6 +19,6 @@ setwd("C://Users/Hector/Desktop/Coursera/CourseraRepos/ExplorDataAnalysis")
 ## Code to generate plot1 (Global Active Power)
 png(filename = "plot1.png", width = 480, height = 480)
 hist(dat_c$Global_active_power, freq = TRUE, col = "red", 
-     main = "Global Acive Power", xlab = "Global Active Power", 
+     main = "Global Acive Power", xlab = "Global Active Power (kilowatts)", 
      ylab = "Frequency")
 dev.off()
